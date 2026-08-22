@@ -1,0 +1,11 @@
+# Items render in file order. Titles support Markdown.
+id = "news"
+heading = "News."
+
+[[items]]
+index = "Aug 21, '26"
+title = "We are hiring students at all levels and are also open to interns."
+
+[[items]]
+index = "Aug 20, '26"
+title = "The Economics & Security Lab website is live."

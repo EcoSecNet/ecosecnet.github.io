@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">BURDELL server</title>
+  <desc id="description">A minimalist three-bay server rack.</desc>
+  <rect width="512" height="512" rx="22" fill="#edf4f8"/>
+  <rect x="106" y="70" width="300" height="372" rx="20" fill="#273746"/>
+  <g fill="#fff">
+    <rect x="136" y="106" width="240" height="76" rx="10"/>
+    <rect x="136" y="218" width="240" height="76" rx="10"/>
+    <rect x="136" y="330" width="240" height="76" rx="10"/>
+  </g>
+  <g fill="#5f7f9f">
+    <circle cx="344" cy="144" r="10"/>
+    <circle cx="344" cy="256" r="10"/>
+    <circle cx="344" cy="368" r="10"/>
+  </g>
+</svg>

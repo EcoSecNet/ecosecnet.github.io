@@ -1,0 +1,14 @@
+# Items render in file order. Titles support Markdown.
+id = "seminars"
+heading = "Seminars."
+
+[[items]]
+title = "[Seminar schedule](https://calendar.google.com/calendar/u/0?cid=ZjIwMTZiNjUzMjI5MzMyNzBjODI5NGVlOTQ0MDI0ZDIwMGVkODQwZDViMjY4NzExYjRmZGFjODRmNTM4N2M4MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)"
+
+[[items]]
+index = "Sep 17, '26"
+title = "Future Speaker: [Dummy Future Talk](https://example.com/future-talk)"
+
+[[items]]
+index = "Jul 16, '26"
+title = "Past Speaker: [Dummy Past Talk](https://example.com/past-talk)"

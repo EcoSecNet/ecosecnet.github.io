@@ -1,0 +1,17 @@
+{%- set data = load_data(path=src) -%}
+{%- if start is defined -%}
+    {%- if n is defined -%}
+        {%- set data = data | split(pat=start) | nth(n=n) -%}
+    {%- else -%}
+        {%- set data = data | split(pat=start) | last -%}
+    {%- endif -%}
+{%- endif -%}
+{%- if end is defined -%}
+    {%- set data = data | split(pat=end) | first -%}
+{%- endif -%}
+{%- if type is defined -%}
+    {%- if type == 'md' -%}
+        {%- set data = data | markdown -%}
+    {%- endif -%}
+{%- endif -%}
+{{ data | safe }}

@@ -1,0 +1,54 @@
+# Optional crop coordinates use source-image pixels. image_size is the full
+# source size; crop gives the displayed rectangle's left/top/right/bottom
+# edges. Bounds may extend slightly outside the source to add breathing room.
+
+[[groups]]
+title = "Members"
+
+[[groups.people]]
+name = "Aviv Yaish"
+website = "https://aviv.yai.sh"
+position = "PI"
+image = "images/aviv-citations.jpg"
+alt = "Aviv Yaish"
+image_size = { width = 256, height = 256 }
+crop = { left = 18, top = 12, right = 238, bottom = 232 }
+
+[[groups.people]]
+name = "BURDELL"
+website = "https://en.wikipedia.org/wiki/George_P._Burdell"
+position = "Server"
+image = "images/burdell-server.svg"
+alt = "Illustration of the BURDELL server"
+title = "Backend Unified Repository & Data Engine for Large Ledgers"
+
+[[groups.people]]
+name = "Your Name Here"
+website = "mailto:lab@ecosec.net?subject=Joining%20EcoSec%20Lab&body=Hi%2C%20my%20name%20is%20...%2C%20my%20CV%20is%20attached.%20I%27d%20like%20to%20join%20the%20lab%20because%20..."
+position = "Join the Lab!"
+image = "https://www.gravatar.com/avatar/0000000000000000000000000000000000000000000000000000000000000000?d=mp&f=y&s=512"
+alt = "Placeholder portrait for a prospective lab member"
+title = "Get in touch about joining the lab"
+
+[[groups]]
+title = "Affiliates."
+
+[[groups.people]]
+name = "Sarisht Wadhwa"
+website = "https://sarisht.github.io/"
+position = "Postdoc, UMich"
+image = "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=Pb7IpLcAAAAJ&citpid=1"
+alt = "Sarisht Wadhwa"
+
+[[groups.people]]
+name = "Ignacy (Iggy) Nieweglowski"
+aliases = ["Ignacy Nieweglowski"]
+website = "https://www.linkedin.com/in/ignacy-nieweglowski-707859290/"
+position = "Staples High School"
+image = "https://westportjournal.com/wp-content/uploads/2026/06/LEAD-PIC-1979x2048.jpg"
+alt = "Ignacy Nieweglowski, right, with Sahil Vora"
+image_size = { width = 1979, height = 2048 }
+crop = { left = 1450, top = 350, right = 1900, bottom = 800 }
+
+[[groups]]
+title = "Alumni."

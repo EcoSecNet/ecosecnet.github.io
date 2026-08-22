@@ -1,0 +1,45 @@
+{%- set section = load_data(path=data_path) -%}
+{%- set items = section.items | default(value=[]) -%}
+{%- set member_data = load_data(path="data/members.toml") -%}
+{%- set lab_member_names = [] -%}
+{%- for group in member_data.groups -%}
+  {%- set people = group.people | default(value=[]) -%}
+  {%- for member in people -%}
+    {%- set_global lab_member_names = lab_member_names | concat(with=[member.name]) -%}
+    {%- set aliases = member.aliases | default(value=[]) -%}
+    {%- for alias in aliases -%}
+      {%- set_global lab_member_names = lab_member_names | concat(with=[alias]) -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- if items %}
+<h2 id="{{ section.id }}">{{ section.heading }}</h2>
+<ul class="record-list">
+  {%- for item in items %}
+  {%- set index = item.index | default(value="") %}
+  {%- set fields = item.fields | default(value=[]) %}
+  <li class="record-item">
+    <span class="record-index">{%- if index %}<code>{{ index }}</code>{% endif -%}</span>
+    <div class="record-details">
+      <p class="record-title">{{ item.title | markdown(inline=true) | safe }}</p>
+      {%- for field in fields %}
+      <p class="record-meta">
+        {%- for value in field -%}
+          {%- if loop.first -%}
+          <span class="record-label">{{ value }}:</span>
+          {%- else -%}
+          {% if loop.index > 2 %}, {% else %} {% endif -%}
+          {%- if value in lab_member_names -%}
+          <span class="record-lab-author" title="Lab member">{{ value }}</span>
+          {%- else -%}
+          {{ value | markdown(inline=true) | safe }}
+          {%- endif -%}
+          {%- endif -%}
+        {%- endfor %}
+      </p>
+      {%- endfor %}
+    </div>
+  </li>
+  {%- endfor %}
+</ul>
+{%- endif %}

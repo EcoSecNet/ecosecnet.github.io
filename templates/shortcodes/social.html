@@ -1,0 +1,27 @@
+{#- EcoSec Lab contact and social links. -#}
+{%- set seminar_data = load_data(path="data/seminars.toml") -%}
+{%- set seminar_items = seminar_data.items | default(value=[]) -%}
+<div>
+  {%- if config.extra.mail -%}
+    {%- if config.extra.mail_encode | default(value=true) -%}
+      {%- set base64_email = config.extra.mail -%}
+      <a class="js m-protected" href="#{{ base64_email | base64_encode }}" aria-label="Email EcoSec Lab"><i class="svg mail" aria-hidden="true"></i></a>
+    {%- else -%}
+      <a href="mailto:{{ config.extra.mail }}" aria-label="Email EcoSec Lab"><i class="svg mail" aria-hidden="true"></i></a>
+    {%- endif -%}
+  {%- endif -%}
+  {%- for item in seminar_items -%}
+    {%- if loop.first -%}
+      <span class="schedule-social">{{ item.title | markdown(inline=true) | safe }}<i class="svg date" aria-hidden="true"></i></span>
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if config.extra.github -%}
+    <a href="https://github.com/{{ config.extra.github }}" target="_blank" rel="noopener noreferrer" aria-label="EcoSec Lab on GitHub"><i class="svg github" aria-hidden="true"></i></a>
+  {%- endif -%}
+  {%- if config.extra.x -%}
+    <a href="https://x.com/{{ config.extra.x }}" target="_blank" rel="noopener noreferrer" aria-label="EcoSec Lab on X"><i class="svg twitter" aria-hidden="true"></i></a>
+  {%- endif -%}
+  {%- if config.extra.youtube -%}
+    <a href="https://www.youtube.com/{{ config.extra.youtube }}" target="_blank" rel="noopener noreferrer" aria-label="EcoSec Lab on YouTube"><i class="svg youtube" aria-hidden="true"></i></a>
+  {%- endif -%}
+</div>

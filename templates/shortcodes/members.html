@@ -1,0 +1,35 @@
+{%- set data = load_data(path="data/members.toml") -%}
+{%- for group in data.groups %}
+  {%- set people = group.people | default(value=[]) %}
+  {%- if people %}
+    {%- if not loop.first %}<h3>{{ group.title }}</h3>{% endif %}
+    <div class="member-gallery">
+      {%- for member in people %}
+      {%- set crop = member.crop | default(value=false) %}
+      {%- if member.image is starting_with("http") %}
+        {%- set image_url = member.image %}
+      {%- else %}
+        {%- set image_url = get_url(path=member.image) %}
+      {%- endif %}
+      <figure class="member-card">
+        <a class="member-photo" href="{{ member.website }}">
+          {%- if crop %}
+          {%- set crop_width = crop.right - crop.left %}
+          {%- set crop_height = crop.bottom - crop.top %}
+          <svg viewBox="{{ crop.left }} {{ crop.top }} {{ crop_width }} {{ crop_height }}" role="img" aria-label="{{ member.alt }}" focusable="false">
+            <image href="{{ image_url }}" x="0" y="0" width="{{ member.image_size.width }}" height="{{ member.image_size.height }}" preserveAspectRatio="none"/>
+          </svg>
+          {%- else %}
+          <img src="{{ image_url }}" width="176" height="176" loading="lazy" decoding="async" alt="{{ member.alt }}">
+          {%- endif %}
+        </a>
+        <figcaption>
+          {%- set member_title = member.title | default(value="") %}
+          <p class="member-name"><a href="{{ member.website }}"{% if member_title %} title="{{ member_title }}" aria-label="{{ member.name }} — {{ member_title }}"{% endif %}>{{ member.name }}</a></p>
+          <p class="member-position">{{ member.position }}</p>
+        </figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+  {%- endif %}
+{%- endfor %}

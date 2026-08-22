@@ -1,0 +1,247 @@
+# Items render in file order. Titles and field values support Markdown.
+id = "papers"
+heading = "Papers."
+
+[[items]]
+index = "[C15]"
+title = "[Inequality in the Age of Pseudonymity](https://doi.org/qv8s)"
+fields = [
+  ["Authors", "Aviv Yaish", "Nir Chemaya", "Lin William Cong", "Dahlia Malkhi"],
+  ["In", "*Proceedings of the Fortieth AAAI Conference on Artificial Intelligence (2026)*"],
+]
+
+[[items]]
+index = "[C14]"
+title = "[Perils of Parallelism: Transaction Fee Mechanisms Under Execution Uncertainty](https://www.usenix.org/conference/usenixsecurity26/presentation/wadhwa)"
+fields = [
+  ["Authors", "Sarisht Wadhwa", "Aviv Yaish", "Fan Zhang", "Kartik Nayak"],
+  ["In", "*Proceedings of the 35th USENIX Security Symposium (2026)*"],
+]
+
+[[items]]
+index = "[C13]"
+title = "[Insecurity Through Obscurity: Veiled Vulnerabilities in Closed-Source Contracts](https://doi.org/g938bn)"
+fields = [
+  ["Authors", "Sen Yang", "Kaihua Qin", "Aviv Yaish", "Fan Zhang"],
+  ["In", "*Proceedings of the 33rd ACM Conference on Computer and Communications Security (2026)*"],
+]
+
+[[items]]
+index = "[C12]"
+title = "[Persistent BitTorrent Trackers](https://doi.org/hcc6qf)"
+fields = [
+  ["Authors", "François-Xavier Wicht", "Zhengwei Tong", "Shunfan Zhou", "Hang Yin", "Aviv Yaish"],
+  ["In", "*Proceedings of the IEEE 11th European Symposium on Security and Privacy (2026)*"],
+]
+
+[[items]]
+index = "[J3]"
+title = "[Platform Building With Fake Consumers: On Double Dippers and Airdrop Farmers](https://doi.org/g9z6tg)"
+fields = [
+  ["Authors", "Hanna Hałaburda", "Ben Livshits", "Aviv Yaish"],
+  ["In", "*Management Science, minor revision (2026)*"],
+]
+
+[[items]]
+index = "[J2]"
+title = "[Transaction Fee Mechanisms Robust to Welfare-Increasing Collusion](https://doi.org/qr6h)"
+fields = [
+  ["Authors", "Yotam Gafni", "Aviv Yaish"],
+  ["In", "*Games and Economic Behavior (2026)*"],
+]
+
+[[items]]
+index = "[J1]"
+title = "[SoK: DeFi Lending and Yield Aggregation Protocol Taxonomy, Empirical Measurements, and Security Challenges](https://doi.org/qz83)"
+fields = [
+  ["Authors", "Arad Kotzer", "Tom Azoulay", "Yoad Abels", "Aviv Yaish", "Ori Rottenstreich"],
+  ["In", "*IEEE Transactions on Network and Service Management (2026)*"],
+]
+
+[[items]]
+index = "[I12]"
+title = "[FISSION: Label Augmentation for Bot Detection](https://www.researchgate.net/publication/411119548_FISSION_Label_Augmentation_for_Bot_Detection)"
+fields = [
+  ["Authors", "Sen Yang", "Ignacy Nieweglowski", "Aviv Yaish"],
+  ["In", "*ResearchGate (2026)*"],
+]
+
+[[items]]
+index = "[I11]"
+title = "[Freemium Is All You Need](https://doi.org/hcdhtb)"
+fields = [
+  ["Authors", "Maxim Bichuch", "Aviv Yaish"],
+  ["In", "*arXiv (2026)*"],
+]
+
+[[items]]
+index = "[I10]"
+title = "[Order Auctions with Private Position Preferences](https://doi.org/hcdhtc)"
+fields = [
+  ["Authors", "Ruijie Wang", "Aviv Yaish"],
+  ["In", "*arXiv (2026)*"],
+]
+
+[[items]]
+index = "[I9]"
+title = "[Authenticated Data Structures for Dynamic Workloads](https://www.researchgate.net/publication/406875856_Authenticated_Data_Structures_for_Dynamic_Workloads)"
+fields = [
+  ["Authors", "Ziheng (Tom) Shangguan", "Aviv Yaish", "Dahlia Malkhi"],
+  ["In", "*ResearchGate (2026)*"],
+]
+
+[[items]]
+index = "[I8]"
+title = "[Modern Portfolio Theory in the Crypto-Wilderness](https://doi.org/hb434x)"
+fields = [
+  ["Authors", "Ivan Vynyavskyy", "Stefan Kitzler", "Bernhard Haslhofer", "Aviv Yaish"],
+  ["In", "*arXiv (2026)*"],
+]
+
+[[items]]
+index = "[I7]"
+title = "[Your Loss is My Gain: Low Stake Attacks on Liquid Staking Pools](https://doi.org/q5jq)"
+fields = [
+  ["Authors", "Sen Yang", "Aviv Yaish", "Arthur Gervais", "Fan Zhang"],
+  ["In", "*arXiv (2026)*"],
+]
+
+[[items]]
+index = "[C11]"
+title = "[Proophi: A ZKP Market Mechanism](https://doi.org/qk3w)"
+fields = [
+  ["Authors", "Wenhao Wang", "Lulu Zhou", "Aviv Yaish", "Fan Zhang", "Ben Fisch", "Benjamin Livshits"],
+  ["In", "*Proceedings of Financial Cryptography and Data Security (2025)*"],
+]
+
+[[items]]
+index = "[I6]"
+title = "[PoliFi Tokens and the Trump Effect](https://doi.org/qjjc)"
+fields = [
+  ["Authors", "Ignacy Nieweglowski", "Aviv Yaish", "Fahad Saleh", "Fan Zhang"],
+  ["In", "*arXiv (2025)*"],
+]
+
+[[items]]
+index = "[I5]"
+title = "[Quantifying Inequality in Blockchain Networks](https://doi.org/p957)"
+fields = [
+  ["Authors", "Nir Chemaya", "Aviv Yaish", "Shahar Yacouel", "Dahlia Malkhi", "Lin William Cong"],
+  ["In", "*SSRN (2025)*"],
+]
+
+[[items]]
+index = "[I4]"
+title = "[Advancing AI Research Assistants with Expert-Involved Learning](https://doi.org/p958)"
+fields = [
+  ["Authors", "Tianyu Liu", "Simeng Han", "Xiao Luo", "Hanchen Wang", "Biqing Zhu", "Rihao Qu", "Yufeng Liu", "Xinyue Cui", "Yuge Wang", "Keyi Li", "Jiapeng Chen", "Aviv Yaish", "Yuhang Chen", "Minsheng Hao", "Chuhan Li", "Kexing Li", "Arman Cohan", "Hua Xu", "Mark Gerstein", "Hongyu Zhao"],
+  ["In", "*arXiv (2025)*"],
+]
+
+[[items]]
+index = "[C10]"
+title = "[Barriers to Collusion-resistant Transaction Fee Mechanisms](https://doi.org/g9z6ms)"
+fields = [
+  ["Authors", "Yotam Gafni", "Aviv Yaish"],
+  ["In", "*Proceedings of the 25th ACM Conference on Economics and Computation (2024)*"],
+]
+
+[[items]]
+index = "[C9]"
+title = "[Discrete & Bayesian Transaction Fee Mechanisms](https://doi.org/g9z6mv)"
+fields = [
+  ["Authors", "Yotam Gafni", "Aviv Yaish"],
+  ["In", "*Proceedings of the 5th International Conference on Mathematical Research for Blockchain Economy (2024)*"],
+]
+
+[[items]]
+index = "[C8]"
+title = "[Speculative Denial-of-Service Attacks in Ethereum](https://www.usenix.org/conference/usenixsecurity24/presentation/yaish)"
+fields = [
+  ["Authors", "Aviv Yaish", "Kaihua Qin", "Liyi Zhou", "Aviv Zohar", "Arthur Gervais"],
+  ["In", "*Proceedings of the 33rd USENIX Security Symposium (2024)*"],
+  ["Awards", "Flashbots Bounty; Ethereum Foundation Bounty"],
+]
+
+[[items]]
+index = "[C7]"
+title = "[Incentives in the Ether: Practical Cryptocurrency Economics & Security](https://doi.org/g9z6pf)"
+fields = [
+  ["Authors", "Aviv Yaish"],
+  ["In", "*Companion Proceedings of the ACM Web Conference (2024)*"],
+]
+
+[[items]]
+index = "[C6]"
+title = "[Suboptimality in DeFi](https://ia.cr/2023/892)"
+fields = [
+  ["Authors", "Aviv Yaish", "Maya Dotan", "Kaihua Qin", "Aviv Zohar", "Arthur Gervais"],
+  ["In", "*The 4th Annual Crypto and Blockchain Economics Research Conference (2024)*"],
+  ["Award", "4th Annual CBER Conference Best Paper Award"],
+]
+
+[[items]]
+index = "[I3]"
+title = "[Strategic Vote Timing in Elections With Public Tallies](https://doi.org/g9z6pg)"
+fields = [
+  ["Authors", "Aviv Yaish", "Svetlana Abramova", "Rainer Böhme"],
+  ["In", "*arXiv (2024)*"],
+]
+
+[[items]]
+index = "[I2]"
+title = "[Scheduling With Time Discounts](https://doi.org/g9z6mt)"
+fields = [
+  ["Authors", "Yotam Gafni", "Aviv Yaish"],
+  ["In", "*arXiv (2024)*"],
+]
+
+[[items]]
+index = "[C5]"
+title = "[Blockchain Censorship](https://doi.org/gtt3rr)"
+fields = [
+  ["Authors", "Toni Wahrstatter", "Jens Ernstberger", "Aviv Yaish", "Liyi Zhou", "Kaihua Qin", "Taro Tsuchiya", "Sebastian Steinhorst", "Nicholas Cristin", "Davor Svetinovic", "Mikolaj Barczentewicz", "Arthur Gervais"],
+  ["In", "*Proceedings of the ACM Web Conference (2024)*"],
+]
+
+[[items]]
+index = "[C4]"
+title = "[Uncle Maker: (Time)Stamping Out The Competition](https://doi.org/gzmv5h)"
+fields = [
+  ["Authors", "Aviv Yaish", "Gilad Stern", "Aviv Zohar"],
+  ["In", "*Proceedings of the 30th ACM Conference on Computer and Communications Security (2023)*"],
+  ["Award", "ACM CCS 2023 Distinguished Paper Award"],
+]
+
+[[items]]
+index = "[C3]"
+title = "[The Vulnerable Nature of Decentralized Governance in DeFi](https://doi.org/g938bn)"
+fields = [
+  ["Authors", "Maya Dotan", "Aviv Yaish", "Hsin-Chu Yin", "Eytan Tsytkin", "Aviv Zohar"],
+  ["In", "*Proceedings of the Workshop on Decentralized Finance and Security (2023)*"],
+]
+
+[[items]]
+index = "[I1]"
+title = "[Airdrops: Giving Money Away is Harder than it Seems](https://doi.org/g9z6h5)"
+fields = [
+  ["Authors", "Johnnatan Messias", "Aviv Yaish", "Benjamin Livshits"],
+  ["In", "*arXiv (2023)*"],
+]
+
+[[items]]
+index = "[C2]"
+title = "[Correct Cryptocurrency ASIC Pricing: Are Miners Overpaying?](https://doi.org/g9z6js)"
+fields = [
+  ["Authors", "Aviv Yaish", "Aviv Zohar"],
+  ["In", "*Proceedings of the 5th Conference on Advances in Financial Technologies (2023)*"],
+]
+
+[[items]]
+index = "[C1]"
+title = "[Blockchain Stretching & Squeezing: Manipulating Time For Your Best Interest](https://doi.org/g9z6dz)"
+fields = [
+  ["Authors", "Aviv Yaish", "Saar Tochner", "Aviv Zohar"],
+  ["In", "*Proceedings of the 23rd ACM Conference on Economics and Computation (2022)*"],
+  ["Award", "Ethereum Foundation Bounty"],
+]
