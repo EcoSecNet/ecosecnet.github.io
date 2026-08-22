@@ -9,7 +9,7 @@ title = "Members"
 name = "Aviv Yaish"
 website = "https://aviv.yai.sh"
 position = "PI"
-image = "images/aviv-citations.jpg"
+image = "images/aviv.jpg"
 alt = "Aviv Yaish"
 image_size = { width = 256, height = 256 }
 crop = { left = 18, top = 12, right = 238, bottom = 232 }
@@ -31,7 +31,7 @@ alt = "Placeholder portrait for a prospective lab member"
 title = "Get in touch about joining the lab"
 
 [[groups]]
-title = "Affiliates."
+title = "Friends of the Lab."
 
 [[groups.people]]
 name = "Yotam Gafni"
