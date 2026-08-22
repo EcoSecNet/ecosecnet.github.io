@@ -3,7 +3,7 @@ id = "papers"
 heading = "Papers."
 
 [[items]]
-index = "[C15]"
+index = "[30]"
 title = "[Inequality in the Age of Pseudonymity](https://doi.org/qv8s)"
 fields = [
   ["Authors", "Aviv Yaish", "Nir Chemaya", "Lin William Cong", "Dahlia Malkhi"],
@@ -11,7 +11,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C14]"
+index = "[29]"
 title = "[Perils of Parallelism: Transaction Fee Mechanisms Under Execution Uncertainty](https://www.usenix.org/conference/usenixsecurity26/presentation/wadhwa)"
 fields = [
   ["Authors", "Sarisht Wadhwa", "Aviv Yaish", "Fan Zhang", "Kartik Nayak"],
@@ -19,7 +19,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C13]"
+index = "[28]"
 title = "[Insecurity Through Obscurity: Veiled Vulnerabilities in Closed-Source Contracts](https://doi.org/g938bn)"
 fields = [
   ["Authors", "Sen Yang", "Kaihua Qin", "Aviv Yaish", "Fan Zhang"],
@@ -27,7 +27,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C12]"
+index = "[27]"
 title = "[Persistent BitTorrent Trackers](https://doi.org/hcc6qf)"
 fields = [
   ["Authors", "François-Xavier Wicht", "Zhengwei Tong", "Shunfan Zhou", "Hang Yin", "Aviv Yaish"],
@@ -35,7 +35,7 @@ fields = [
 ]
 
 [[items]]
-index = "[J3]"
+index = "[26]"
 title = "[Platform Building With Fake Consumers: On Double Dippers and Airdrop Farmers](https://doi.org/g9z6tg)"
 fields = [
   ["Authors", "Hanna Hałaburda", "Ben Livshits", "Aviv Yaish"],
@@ -43,7 +43,7 @@ fields = [
 ]
 
 [[items]]
-index = "[J2]"
+index = "[25]"
 title = "[Transaction Fee Mechanisms Robust to Welfare-Increasing Collusion](https://doi.org/qr6h)"
 fields = [
   ["Authors", "Yotam Gafni", "Aviv Yaish"],
@@ -51,7 +51,7 @@ fields = [
 ]
 
 [[items]]
-index = "[J1]"
+index = "[24]"
 title = "[SoK: DeFi Lending and Yield Aggregation Protocol Taxonomy, Empirical Measurements, and Security Challenges](https://doi.org/qz83)"
 fields = [
   ["Authors", "Arad Kotzer", "Tom Azoulay", "Yoad Abels", "Aviv Yaish", "Ori Rottenstreich"],
@@ -59,7 +59,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I12]"
+index = "[23]"
 title = "[FISSION: Label Augmentation for Bot Detection](https://www.researchgate.net/publication/411119548_FISSION_Label_Augmentation_for_Bot_Detection)"
 fields = [
   ["Authors", "Sen Yang", "Ignacy Nieweglowski", "Aviv Yaish"],
@@ -67,7 +67,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I11]"
+index = "[22]"
 title = "[Freemium Is All You Need](https://doi.org/hcdhtb)"
 fields = [
   ["Authors", "Maxim Bichuch", "Aviv Yaish"],
@@ -75,7 +75,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I10]"
+index = "[21]"
 title = "[Order Auctions with Private Position Preferences](https://doi.org/hcdhtc)"
 fields = [
   ["Authors", "Ruijie Wang", "Aviv Yaish"],
@@ -83,7 +83,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I9]"
+index = "[20]"
 title = "[Authenticated Data Structures for Dynamic Workloads](https://www.researchgate.net/publication/406875856_Authenticated_Data_Structures_for_Dynamic_Workloads)"
 fields = [
   ["Authors", "Ziheng (Tom) Shangguan", "Aviv Yaish", "Dahlia Malkhi"],
@@ -91,7 +91,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I8]"
+index = "[19]"
 title = "[Modern Portfolio Theory in the Crypto-Wilderness](https://doi.org/hb434x)"
 fields = [
   ["Authors", "Ivan Vynyavskyy", "Stefan Kitzler", "Bernhard Haslhofer", "Aviv Yaish"],
@@ -99,7 +99,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I7]"
+index = "[18]"
 title = "[Your Loss is My Gain: Low Stake Attacks on Liquid Staking Pools](https://doi.org/q5jq)"
 fields = [
   ["Authors", "Sen Yang", "Aviv Yaish", "Arthur Gervais", "Fan Zhang"],
@@ -107,7 +107,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C11]"
+index = "[17]"
 title = "[Proophi: A ZKP Market Mechanism](https://doi.org/qk3w)"
 fields = [
   ["Authors", "Wenhao Wang", "Lulu Zhou", "Aviv Yaish", "Fan Zhang", "Ben Fisch", "Benjamin Livshits"],
@@ -115,7 +115,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I6]"
+index = "[16]"
 title = "[PoliFi Tokens and the Trump Effect](https://doi.org/qjjc)"
 fields = [
   ["Authors", "Ignacy Nieweglowski", "Aviv Yaish", "Fahad Saleh", "Fan Zhang"],
@@ -123,7 +123,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I5]"
+index = "[15]"
 title = "[Quantifying Inequality in Blockchain Networks](https://doi.org/p957)"
 fields = [
   ["Authors", "Nir Chemaya", "Aviv Yaish", "Shahar Yacouel", "Dahlia Malkhi", "Lin William Cong"],
@@ -131,7 +131,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I4]"
+index = "[14]"
 title = "[Advancing AI Research Assistants with Expert-Involved Learning](https://doi.org/p958)"
 fields = [
   ["Authors", "Tianyu Liu", "Simeng Han", "Xiao Luo", "Hanchen Wang", "Biqing Zhu", "Rihao Qu", "Yufeng Liu", "Xinyue Cui", "Yuge Wang", "Keyi Li", "Jiapeng Chen", "Aviv Yaish", "Yuhang Chen", "Minsheng Hao", "Chuhan Li", "Kexing Li", "Arman Cohan", "Hua Xu", "Mark Gerstein", "Hongyu Zhao"],
@@ -139,7 +139,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C10]"
+index = "[13]"
 title = "[Barriers to Collusion-resistant Transaction Fee Mechanisms](https://doi.org/g9z6ms)"
 fields = [
   ["Authors", "Yotam Gafni", "Aviv Yaish"],
@@ -147,7 +147,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C9]"
+index = "[12]"
 title = "[Discrete & Bayesian Transaction Fee Mechanisms](https://doi.org/g9z6mv)"
 fields = [
   ["Authors", "Yotam Gafni", "Aviv Yaish"],
@@ -155,7 +155,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C8]"
+index = "[11]"
 title = "[Speculative Denial-of-Service Attacks in Ethereum](https://www.usenix.org/conference/usenixsecurity24/presentation/yaish)"
 fields = [
   ["Authors", "Aviv Yaish", "Kaihua Qin", "Liyi Zhou", "Aviv Zohar", "Arthur Gervais"],
@@ -164,7 +164,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C7]"
+index = "[10]"
 title = "[Incentives in the Ether: Practical Cryptocurrency Economics & Security](https://doi.org/g9z6pf)"
 fields = [
   ["Authors", "Aviv Yaish"],
@@ -172,7 +172,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C6]"
+index = "[9]"
 title = "[Suboptimality in DeFi](https://ia.cr/2023/892)"
 fields = [
   ["Authors", "Aviv Yaish", "Maya Dotan", "Kaihua Qin", "Aviv Zohar", "Arthur Gervais"],
@@ -181,7 +181,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I3]"
+index = "[8]"
 title = "[Strategic Vote Timing in Elections With Public Tallies](https://doi.org/g9z6pg)"
 fields = [
   ["Authors", "Aviv Yaish", "Svetlana Abramova", "Rainer Böhme"],
@@ -189,7 +189,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I2]"
+index = "[7]"
 title = "[Scheduling With Time Discounts](https://doi.org/g9z6mt)"
 fields = [
   ["Authors", "Yotam Gafni", "Aviv Yaish"],
@@ -197,7 +197,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C5]"
+index = "[6]"
 title = "[Blockchain Censorship](https://doi.org/gtt3rr)"
 fields = [
   ["Authors", "Toni Wahrstatter", "Jens Ernstberger", "Aviv Yaish", "Liyi Zhou", "Kaihua Qin", "Taro Tsuchiya", "Sebastian Steinhorst", "Nicholas Cristin", "Davor Svetinovic", "Mikolaj Barczentewicz", "Arthur Gervais"],
@@ -205,7 +205,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C4]"
+index = "[5]"
 title = "[Uncle Maker: (Time)Stamping Out The Competition](https://doi.org/gzmv5h)"
 fields = [
   ["Authors", "Aviv Yaish", "Gilad Stern", "Aviv Zohar"],
@@ -214,7 +214,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C3]"
+index = "[4]"
 title = "[The Vulnerable Nature of Decentralized Governance in DeFi](https://doi.org/g938bn)"
 fields = [
   ["Authors", "Maya Dotan", "Aviv Yaish", "Hsin-Chu Yin", "Eytan Tsytkin", "Aviv Zohar"],
@@ -222,7 +222,7 @@ fields = [
 ]
 
 [[items]]
-index = "[I1]"
+index = "[3]"
 title = "[Airdrops: Giving Money Away is Harder than it Seems](https://doi.org/g9z6h5)"
 fields = [
   ["Authors", "Johnnatan Messias", "Aviv Yaish", "Benjamin Livshits"],
@@ -230,7 +230,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C2]"
+index = "[2]"
 title = "[Correct Cryptocurrency ASIC Pricing: Are Miners Overpaying?](https://doi.org/g9z6js)"
 fields = [
   ["Authors", "Aviv Yaish", "Aviv Zohar"],
@@ -238,7 +238,7 @@ fields = [
 ]
 
 [[items]]
-index = "[C1]"
+index = "[1]"
 title = "[Blockchain Stretching & Squeezing: Manipulating Time For Your Best Interest](https://doi.org/g9z6dz)"
 fields = [
   ["Authors", "Aviv Yaish", "Saar Tochner", "Aviv Zohar"],
