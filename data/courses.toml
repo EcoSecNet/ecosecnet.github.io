@@ -2,10 +2,10 @@
 id = "courses"
 heading = "Courses."
 
-[[items]]
-index = "Fall '27"
-title = "[Dummy Future Course](https://example.com/future-course)"
-
-[[items]]
-index = "Spring '26"
-title = "Dummy Past Course"
+# [[items]]
+# index = "Fall '27"
+# title = "[Dummy Future Course](https://example.com/future-course)"
+# 
+# [[items]]
+# index = "Spring '26"
+# title = "Dummy Past Course"
