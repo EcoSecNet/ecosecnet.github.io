@@ -47,6 +47,10 @@
   line-height: 0;
 }
 
+.lab-social > div:has(> :nth-child(3):last-child) {
+  flex-basis: 65%;
+}
+
 .lab-social a {
   display: flex;
 }
@@ -243,6 +247,10 @@ main h2 {
     width: clamp(3rem, 18vw, 3.75rem);
     margin: 0;
     padding-top: 0;
+  }
+
+  .lab-mark:has(.lab-social > div > :nth-child(3):last-child) {
+    top: 1.5rem;
   }
 
   .lab-social > div {
