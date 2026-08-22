@@ -1,6 +1,4 @@
 {#- EcoSec Lab contact and social links. -#}
-{%- set seminar_data = load_data(path="data/seminars.toml") -%}
-{%- set seminar_items = seminar_data.items | default(value=[]) -%}
 <div>
   {%- if config.extra.mail -%}
     {%- if config.extra.mail_encode | default(value=true) -%}
@@ -10,11 +8,6 @@
       <a href="mailto:{{ config.extra.mail }}" aria-label="Email EcoSec Lab"><i class="svg mail" aria-hidden="true"></i></a>
     {%- endif -%}
   {%- endif -%}
-  {%- for item in seminar_items -%}
-    {%- if loop.first -%}
-      <span class="schedule-social">{{ item.title | markdown(inline=true) | safe }}<i class="svg date" aria-hidden="true"></i></span>
-    {%- endif -%}
-  {%- endfor -%}
   {%- if config.extra.github -%}
     <a href="https://github.com/{{ config.extra.github }}" target="_blank" rel="noopener noreferrer" aria-label="EcoSec Lab on GitHub"><i class="svg github" aria-hidden="true"></i></a>
   {%- endif -%}
