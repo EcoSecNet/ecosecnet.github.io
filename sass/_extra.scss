@@ -252,6 +252,10 @@ main h2 {
     gap: 0.1rem 0.15rem;
   }
 
+  .lab-social > div:has(> :nth-child(3):last-child) {
+    flex-basis: 100%;
+  }
+
   .lab-social > div > a,
   .lab-social .schedule-social {
     flex: 0 0 var(--phone-social-size);
