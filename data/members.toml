@@ -48,6 +48,13 @@ image = "https://scholar.googleusercontent.com/citations?view_op=medium_photo&us
 alt = "Sarisht Wadhwa"
 
 [[groups.people]]
+name = "Sen Yang"
+website = "https://syang.xyz/"
+position = "Grad Student, Yale"
+image = "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=LawrlxIAAAAJ&citpid=1"
+alt = "Sen Yang"
+
+[[groups.people]]
 name = "Ignacy (Iggy) Nieweglowski"
 aliases = ["Ignacy Nieweglowski"]
 website = "https://www.linkedin.com/in/ignacy-nieweglowski-707859290/"
