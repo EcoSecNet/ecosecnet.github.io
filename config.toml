@@ -114,7 +114,7 @@ title_addition = "Security and economics at Georgia Tech" # a default value for 
 author = "Aviv Yaish" # Put Your Name here
 keywords = "Economics and Security Lab, EcoSec Lab, Aviv Yaish, Georgia Tech, Security, Economics, Distributed Systems, AI, Blockchain, Cryptocurrency, Decentralized Finance, DeFi" # used for the primary site index
 banner = "banner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
-twitter_meta = "ecoseclabnet" # for SEO: twitter:site and twitter:creator
+twitter_meta = "ecosecnet" # for SEO: twitter:site and twitter:creator
 # Add new search-engine verification codes here after ecosec.net is configured.
 seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twitter
 #dev = false # development mode, if true then robots.txt should prevent search indexing.
@@ -134,7 +134,7 @@ mail = "lab@ecosec.net"
 #buymeacoffee = "your-user-name"
 #kofi = "your-user-name"
 #discord = "your-discord" # Everything after https://discord.com/   eg: invite/my-server  *or*  servers/my-server-id
-x = "ecoseclabnet"
+x = "ecosecnet"
 #facebook = "your-user-name"
 # linkedin = "avivyaish"
 #gitlab = "your-user-name"

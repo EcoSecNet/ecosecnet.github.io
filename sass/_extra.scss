@@ -55,19 +55,6 @@
   display: flex;
 }
 
-.schedule-social {
-  position: relative;
-  display: flex;
-}
-
-.schedule-social > a {
-  position: absolute;
-  z-index: 1;
-  inset: 0;
-  overflow: hidden;
-  font-size: 0;
-}
-
 .lab-social .svg {
   width: 1.9rem;
   height: 1.9rem;
@@ -216,9 +203,14 @@ main h2 {
 
   header > nav > div:first-child {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     min-height: clamp(5.75rem, 34vw, 7rem);
     padding: 0.25rem clamp(3.75rem, 22vw, 4.5rem) 0 0;
+  }
+
+  body:has(.lab-social > div > :nth-child(3):last-child)
+    header > nav > div:first-child {
+    min-height: clamp(4.25rem, 26vw, 5.5rem);
   }
 
   header > nav > div:nth-child(2) {
@@ -241,16 +233,12 @@ main h2 {
     --phone-social-size: clamp(0.9rem, 5.2vw, 1.1rem);
     position: absolute;
     z-index: 1;
-    top: 1rem;
+    top: 0.75rem;
     right: var(--s1);
     float: none;
     width: clamp(3rem, 18vw, 3.75rem);
     margin: 0;
     padding-top: 0;
-  }
-
-  .lab-mark:has(.lab-social > div > :nth-child(3):last-child) {
-    top: 1.5rem;
   }
 
   .lab-social > div {
@@ -264,8 +252,7 @@ main h2 {
     flex-basis: 100%;
   }
 
-  .lab-social > div > a,
-  .lab-social .schedule-social {
+  .lab-social > div > a {
     flex: 0 0 var(--phone-social-size);
     align-items: center;
     justify-content: center;
