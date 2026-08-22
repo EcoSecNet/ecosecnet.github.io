@@ -3,9 +3,9 @@
   {%- if config.extra.mail -%}
     {%- if config.extra.mail_encode | default(value=true) -%}
       {%- set base64_email = config.extra.mail -%}
-      <a class="js m-protected" href="#{{ base64_email | base64_encode }}" aria-label="Email EcoSec Lab"><i class="svg mail" aria-hidden="true"></i></a>
+      <a class="js m-protected" href="#{{ base64_email | base64_encode }}" target="_blank" aria-label="Email EcoSec Lab"><i type="Button" class="svg mail"></i></a>
     {%- else -%}
-      <a href="mailto:{{ config.extra.mail }}" aria-label="Email EcoSec Lab"><i class="svg mail" aria-hidden="true"></i></a>
+      <a href="mailto:{{ config.extra.mail }}" target="_blank" aria-label="Email EcoSec Lab"><i type="Button" class="svg mail"></i></a>
     {%- endif -%}
   {%- endif -%}
   {%- if config.extra.github -%}
