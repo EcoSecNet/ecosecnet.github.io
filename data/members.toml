@@ -34,6 +34,13 @@ title = "Get in touch about joining the lab"
 title = "Affiliates."
 
 [[groups.people]]
+name = "Yotam Gafni"
+website = "https://www.yotamgafni.com/"
+position = "Prof, TAU"
+image = "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=tmcnRm4AAAAJ&citpid=5"
+alt = "Yotam Gafni"
+
+[[groups.people]]
 name = "Sarisht Wadhwa"
 website = "https://sarisht.github.io/"
 position = "Postdoc, UMich"
