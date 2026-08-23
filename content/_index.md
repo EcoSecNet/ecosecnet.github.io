@@ -16,7 +16,7 @@ This drives our research into the economics and security of distributed systems 
 
 **Hiring.**
 We are hiring students at all levels, and are also open to interns.
-Do get in touch if you want to collaborate or chat!
+Do get in touch!
 
 
 <hr style="height:1px; visibility:hidden; padding-bottom:1%;">
