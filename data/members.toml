@@ -64,5 +64,12 @@ alt = "Ignacy Nieweglowski, right, with Sahil Vora"
 image_size = { width = 1979, height = 2048 }
 crop = { left = 1450, top = 350, right = 1900, bottom = 800 }
 
+[[groups.people]]
+name = "Drew Stone"
+website = "https://tangle.tools/"
+position = "Founder, Tangle"
+image = "https://miro.medium.com/v2/resize:fit:2400/1*PRWND7_jaZ36ifhA4slwTA.png"
+alt = "Drew Stone"
+
 [[groups]]
 title = "Alumni."
