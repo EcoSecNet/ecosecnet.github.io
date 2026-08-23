@@ -1,6 +1,7 @@
 # Optional crop coordinates use source-image pixels. image_size is the full
 # source size; crop gives the displayed rectangle's left/top/right/bottom
 # edges. Bounds may extend slightly outside the source to add breathing room.
+# Alt text defaults to the member's name; set alt only for a useful override.
 
 [[groups]]
 title = "Members"
@@ -10,7 +11,6 @@ name = "Aviv Yaish"
 website = "https://aviv.yai.sh"
 position = "PI"
 image = "images/aviv.jpg"
-alt = "Aviv Yaish"
 image_size = { width = 256, height = 256 }
 crop = { left = 18, top = 12, right = 238, bottom = 232 }
 
@@ -38,21 +38,18 @@ name = "Yotam Gafni"
 website = "https://www.yotamgafni.com/"
 position = "Assistant Prof, TAU"
 image = "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=tmcnRm4AAAAJ&citpid=5"
-alt = "Yotam Gafni"
 
 [[groups.people]]
 name = "Sarisht Wadhwa"
 website = "https://sarisht.github.io/"
 position = "Postdoc, UMich"
 image = "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=Pb7IpLcAAAAJ&citpid=1"
-alt = "Sarisht Wadhwa"
 
 [[groups.people]]
 name = "Sen Yang"
 website = "https://syang.xyz/"
 position = "Grad Student, Yale"
 image = "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=LawrlxIAAAAJ&citpid=1"
-alt = "Sen Yang"
 
 [[groups.people]]
 name = "Ignacy (Iggy) Nieweglowski"
@@ -69,7 +66,6 @@ name = "Drew Stone"
 website = "https://tangle.tools/"
 position = "Founder, Tangle"
 image = "https://miro.medium.com/v2/resize:fit:2400/1*PRWND7_jaZ36ifhA4slwTA.png"
-alt = "Drew Stone"
 
 [[groups]]
 title = "Alumni."

@@ -6,6 +6,7 @@
     <div class="member-gallery">
       {%- for member in people %}
       {%- set crop = member.crop | default(value=false) %}
+      {%- set image_alt = member.alt | default(value=member.name) %}
       {%- if member.image is starting_with("http") %}
         {%- set image_url = member.image %}
       {%- else %}
@@ -16,11 +17,11 @@
           {%- if crop %}
           {%- set crop_width = crop.right - crop.left %}
           {%- set crop_height = crop.bottom - crop.top %}
-          <svg viewBox="{{ crop.left }} {{ crop.top }} {{ crop_width }} {{ crop_height }}" role="img" aria-label="{{ member.alt }}" focusable="false">
+          <svg viewBox="{{ crop.left }} {{ crop.top }} {{ crop_width }} {{ crop_height }}" role="img" aria-label="{{ image_alt }}" focusable="false">
             <image href="{{ image_url }}" x="0" y="0" width="{{ member.image_size.width }}" height="{{ member.image_size.height }}" preserveAspectRatio="none"/>
           </svg>
           {%- else %}
-          <img src="{{ image_url }}" width="176" height="176" loading="lazy" decoding="async" alt="{{ member.alt }}">
+          <img src="{{ image_url }}" width="176" height="176" loading="lazy" decoding="async" alt="{{ image_alt }}">
           {%- endif %}
         </a>
         <figcaption>
