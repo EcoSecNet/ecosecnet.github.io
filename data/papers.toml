@@ -84,7 +84,7 @@ fields = [
 
 [[items]]
 index = "[20]"
-title = "[Authenticated Data Structures for Dynamic Workloads](https://www.researchgate.net/publication/406875856_Authenticated_Data_Structures_for_Dynamic_Workloads)"
+title = "[Authenticated Data Structures for Dynamic Workloads](https://doi.org/hcgx84)"
 fields = [
   ["Authors", "Ziheng (Tom) Shangguan", "Aviv Yaish", "Dahlia Malkhi"],
   ["In", "*ResearchGate (2026)*"],
