@@ -52,6 +52,13 @@ position = "Grad Student, Yale"
 image = "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=LawrlxIAAAAJ&citpid=1"
 
 [[groups.people]]
+name = "Ruijie Wang"
+aliases = ["Wang Ruijie"]
+website = "https://wangaruijie.github.io/"
+position = "Grad Student, UMich"
+image = "https://wangaruijie.github.io/assets/profile.jpg"
+
+[[groups.people]]
 name = "Ignacy (Iggy) Nieweglowski"
 aliases = ["Ignacy Nieweglowski"]
 website = "https://www.linkedin.com/in/ignacy-nieweglowski-707859290/"

@@ -1,0 +1,23 @@
+# Items render in file order. Titles support Markdown.
+id = "selected-media-coverage"
+heading = "Selected Media Coverage."
+
+[[items]]
+index = "2024"
+title = "Blockworks. [\"What would it cost me to break Ethereum?\"](https://mail.blockworks.com/p/thursday-attacking-mailbag)"
+
+[[items]]
+index = "2023"
+title = "CoinMarketCap. [\"A Look Back in Time: Ethereum\"](https://coinmarketcap.com/academy/article/a-look-back-in-time-ethereum)"
+
+[[items]]
+index = "2022"
+title = "International Business Times. [\"F2Pool Boss Talks About Suspected Foul Play In Ethereum Mining System\"](https://www.ibtimes.com/f2pool-boss-talks-about-suspected-foul-play-ethereum-mining-system-3599577)"
+
+[[items]]
+index = "2022"
+title = "CryptoSlate. [\"Researchers say they discovered consensus level attack on Ethereum — miners cheating the system to earn more\"](https://cryptoslate.com/researchers-say-they-discovered-consensus-level-attack-on-ethereum-miners-cheating-the-system-to-earn-more)"
+
+[[items]]
+index = "2022"
+title = "Cointelegraph. [\"F2Pool co-founder responds to allegations it's cheating the Ethereum POW system\"](https://cointelegraph.com/news/f2pool-co-founder-responds-to-allegations-it-s-cheating-the-ethereum-pow-system)"

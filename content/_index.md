@@ -33,3 +33,5 @@ We are hiring students at all levels, and are also open to interns.
 {{ records(data_path="data/courses.toml") }}
 
 {{ records(data_path="data/papers.toml") }}
+
+{{ records(data_path="data/media.toml") }}
