@@ -18,9 +18,7 @@ This drives our research into the economics and security of distributed systems 
 We are hiring students at all levels, and are also open to interns.
 <a href="mailto:lab@ecosec.net?subject=Joining%20EcoSec%20Lab&body=Hi%2C%20my%20name%20is%20...%2C%20my%20CV%20is%20attached.%20I%27d%20like%20to%20join%20the%20lab%20because%20...">Get in touch!</a>
 
-
 <hr style="height:1px; visibility:hidden; padding-bottom:1%;">
-
 
 {{ records(data_path="data/news.toml") }}
 
